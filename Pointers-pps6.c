@@ -1,12 +1,14 @@
 #include<stdio.h>
 void main()
 {
-    int a,b;
-    int *ptra,*ptrb;
+    int a,b,sum,diff;
+    int *ptra,*ptrb,*ptrsum,*ptrdiff;
     printf("Enter two values :");
     scanf("%d%d",a,b);
     ptra=&a;
     ptrb=&b;
-    printf("Addition :%d\n",*ptra+*ptrb);
-    printf("Substraction :%d\n",*ptra-*ptrb);
+    ptrsum=&sum;
+    ptrdiff=&diff;
+    printf("Addition :%d\n",*ptrsum);
+    printf("Substraction :%d\n",*ptrdiff);
 }
