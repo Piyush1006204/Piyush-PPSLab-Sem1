@@ -4,7 +4,7 @@ void main()
     int a,b;
     int *ptra,*ptrb;
     printf("Enter two values :");
-    scanf("%d",a,b);
+    scanf("%d%d",a,b);
     ptra=&a;
     ptrb=&b;
     printf("Addition :%d\n",*ptra+*ptrb);
