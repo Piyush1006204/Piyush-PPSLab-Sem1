@@ -14,7 +14,6 @@ scanf("%d", &arr[i]);
 printf("\nEnter the key element that you would like to be searched: ");
 scanf("%d", &key);
 /*  Linear search starts */
-
 for (i = 0; i < num ; i++)
 {
 if (key == arr[i] )
