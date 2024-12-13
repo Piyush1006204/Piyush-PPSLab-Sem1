@@ -1,8 +1,6 @@
  #include<stdio.h>
- #include<conio.h>
  void main()
  {
- clrscr();
  int num[10];
  int i;
  int j=0;
